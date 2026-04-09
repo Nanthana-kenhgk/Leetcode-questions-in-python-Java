@@ -1,6 +1,8 @@
-// flood fill using dfs
-// traverse connected cells with the same original color and change its color
-// time complexity: O(m*n) | space complexity: o(m*n)
+// Problem: 733. Flood Fill
+// Flood fill using dfs
+// Traverse connected cells with the same original color and change its color
+// Use visited[][] to avoid revisiting cells
+// Time complexity: O(m*n) | space complexity: o(m*n)
 class Solution {
     public int[][] floodFill(int[][] image, int sr, int sc, int color) {
         boolean[][] visited = new boolean[image.length][image[0].length];
