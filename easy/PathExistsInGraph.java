@@ -1,3 +1,4 @@
+// Problem: 1971. Find if path exists in Graph
 // given n nodes (0 to n-1), an edge list representing an undirected graph and a source and a destination, determine if a path exists between them
 // Build an adjacency list and use BFS to check if path exists
 // Nodes are marked visited when added to queue to avoid revisiting them
